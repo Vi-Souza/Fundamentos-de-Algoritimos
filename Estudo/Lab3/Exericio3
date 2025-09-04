@@ -1,0 +1,12 @@
+import math
+
+solido = input("Você deseja calcular o volume do dodecaedro ou icosaedro: ")
+a = float(input("Digite o valor da aresta a em metros: "))
+if solido == "dodecaedro":
+    v=((15+(7*(math.sqrt(5))))/4)*(a**3)
+    print(f"O volume de um dodecaedro regular com {a} de aresta é: {v:.2f}")
+elif solido == "icosaedro":
+    v=((5/12)*(3+(math.sqrt(5))))*(a**3)
+    print(f"O volume de um icosaedro regular com {a} de aresta é: {v:.2f}")
+else:
+    print("soluçao invalida")

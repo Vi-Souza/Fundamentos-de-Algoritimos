@@ -9,4 +9,4 @@ for i in range(2, len(lista)):
     if lista[i] > lista[i - 1] + lista[i - 2]:
         print(lista[i])
 
-# Teste 
+# Teste dhaishdiuahsida

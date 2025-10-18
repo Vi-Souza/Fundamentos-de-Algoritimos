@@ -7,5 +7,4 @@ while True:
         lista.append(n)
 for elemento in lista:
     print(elemento)
-
-    # hsuahishaiusa
+    
